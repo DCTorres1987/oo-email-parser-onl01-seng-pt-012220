@@ -14,7 +14,8 @@ class EmailAddressParser
   end
   
   def parse
-    parser =  @email_address
+    parser = []
+    parser <<  @email_address
     binding pry
   end
   
