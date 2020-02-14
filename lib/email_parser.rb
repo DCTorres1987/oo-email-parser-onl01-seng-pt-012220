@@ -11,6 +11,7 @@ class EmailAddressParser
   
   def initialize(email_address)
     @email_address = email_address
+    binding pry
   end
   
   def parse
