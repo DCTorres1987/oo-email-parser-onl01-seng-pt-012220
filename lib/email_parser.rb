@@ -15,7 +15,7 @@ class EmailAddressParser
   end
   
   def parse
-    parser = @email_address.join
+    parser = @email_address.join(" ")
     binding pry
   end
   
