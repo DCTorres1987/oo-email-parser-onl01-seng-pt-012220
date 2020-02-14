@@ -5,17 +5,9 @@
 
 require 'pry'
 
-class EmailParser
+class EmailAddressParser
   
   attr_accessor :emails 
   
-  def intialize(emails)
-    @emails = emails
-  end
-  
-  def parse
-   paser @emails.split(",")
-    binding pry
-  end
 
 end
