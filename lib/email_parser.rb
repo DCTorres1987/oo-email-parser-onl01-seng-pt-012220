@@ -15,7 +15,7 @@ class EmailAddressParser
   
   def parse
     parser = @email_address.split(",")
-    parser.chomp
+    parser.chomp!
   end
   
 
