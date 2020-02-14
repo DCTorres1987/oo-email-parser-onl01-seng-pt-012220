@@ -17,7 +17,6 @@ class EmailAddressParser
     parser = []
     parser <<  @email_address
     parser
-    binding pry
   end
   
 
