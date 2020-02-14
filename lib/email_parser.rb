@@ -14,7 +14,7 @@ class EmailAddressParser
   end
   
   def parse
-    parser =  @email_address
+    parser =  @email_address.join
     parser
   end
   
