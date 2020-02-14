@@ -14,7 +14,7 @@ class EmailAddressParser
   end
   
   def parse
-    binding pry
+    parser = @email_address.split(",")
   end
   
 
