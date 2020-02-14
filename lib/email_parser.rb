@@ -14,9 +14,7 @@ class EmailAddressParser
   end
   
   def parse
-    parser = []
-    parser << @email_address
-    parser
+    parser =  @email_address.split
   end
   
 
